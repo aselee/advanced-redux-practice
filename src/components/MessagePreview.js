@@ -19,6 +19,18 @@ function MessagePreview(props) {
       </a>
     </li>
   );
-}
+};
 
 export default MessagePreview;
+
+
+// const mapStateToProps = function (state) {
+//   return {
+//     Message: state.tickets
+//   };
+// };
+
+// const MessagePreviewContainer = connect(
+//   mapStateToProps
+//  )(MessagePreview);
+//  export default MessagePreviewContainer
