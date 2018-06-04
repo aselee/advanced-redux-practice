@@ -20,6 +20,8 @@ ReactDOM.render(
 document.getElementById('root')
 );
 
+// Template example
+
 // const {
 // dateTime,
 // newComments,
