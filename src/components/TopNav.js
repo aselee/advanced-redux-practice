@@ -73,7 +73,5 @@ const mapStateToProps = function (state) {
     };
   };
   
-  const TopNavContainer = connect(
-    mapStateToProps
-   )(TopNav);
+  const TopNavContainer = connect(mapStateToProps)(TopNav);
    export default TopNavContainer;

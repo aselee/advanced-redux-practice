@@ -33,8 +33,6 @@ function mapStateToProps(state){
   }
  }
  
- const NewOrdersContainer = connect(
-  mapStateToProps
- )(Orders);
+ const NewOrdersContainer = connect(mapStateToProps)(Orders);
  export default NewOrdersContainer
 

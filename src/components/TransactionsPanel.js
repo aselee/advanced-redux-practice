@@ -42,7 +42,5 @@ function mapStateToProps(state){
     }
    }
    
-   const TransactionsPanelContainer = connect(
-    mapStateToProps
-   )(TransactionsPanel);
+   const TransactionsPanelContainer = connect(mapStateToProps)(TransactionsPanel);
    export default TransactionsPanelContainer

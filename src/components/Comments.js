@@ -33,9 +33,7 @@ const mapStateToProps = function (state) {
     };
   };
   
-  const NewCommentsContainer = connect(
-    mapStateToProps
-   )(Comments);
+  const NewCommentsContainer = connect(mapStateToProps)(Comments);
    export default NewCommentsContainer;
 
 

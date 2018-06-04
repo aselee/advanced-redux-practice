@@ -32,8 +32,6 @@ const mapStateToProps = function (state) {
     };
   };
   
-  const NewTasksContainer = connect(
-    mapStateToProps
-   )(Tasks);
+  const NewTasksContainer = connect(mapStateToProps)(Tasks);
    export default NewTasksContainer;
 

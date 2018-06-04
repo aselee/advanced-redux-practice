@@ -31,7 +31,5 @@ function mapStateToProps(state){
  }
 }
 
-const TasksPanelContainer = connect(
- mapStateToProps
-)(TasksPanel);
+const TasksPanelContainer = connect(mapStateToProps)(TasksPanel);
 export default TasksPanelContainer
